@@ -1,0 +1,13 @@
+.category{
+    display: flex;
+    flex-direction: column;
+}
+.category h2{
+    padding-block: 20px;
+}
+.category div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
