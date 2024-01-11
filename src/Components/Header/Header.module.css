@@ -7,8 +7,9 @@
     height: 68px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #fff;
+    padding-inline: 40px;
 }
 
 .header span{
@@ -21,4 +22,8 @@
     color: #fff;
     padding-inline: 16px;
     font-size: 18px;
+    transition: 0.5s all;
+}
+.header a:hover{
+    color: #afafaf;
 }
