@@ -1,9 +1,11 @@
 .container{
     width: 100%;
     /* heigth: 100% é referente ao tamanho total dos conteúdos*/
+    min-height: 100vh;
     background-color: #191919;
-    padding-block: 16px;
+    padding-bottom: 16px;
+    padding-inline: 25px;
     color: #fff;
     text-align: center;
-    
+    overflow: hidden;
 }
