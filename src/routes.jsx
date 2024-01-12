@@ -3,6 +3,7 @@ import Home from "./Page/Home/Home";
 import Watch from "./Page/Watch/watch";
 import PageNotFound from "./Page/PageNotFound";
 import Search from "./Page/Search/Search";
+import Favorites from "./Page/Favorites/Fovorites";
 
 function AppRoutes(){
     return(
@@ -10,7 +11,11 @@ function AppRoutes(){
             <Routes>
                 <Route path="/" element={ <Home /> }></Route>
                 <Route path="/watch/:id" element={ <Watch /> }></Route>
+
                 <Route path="/search" element={ <Search /> }></Route>
+
+                <Route path="/favorites" element={ <Favorites /> }></Route>
+                
                 <Route path="*" element={ <PageNotFound/> }></Route>
                 
                 {/* estou passando duas Props
