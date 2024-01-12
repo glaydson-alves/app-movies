@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Page/Home/Home";
-import Watch from "./Page/Watch";
+import Watch from "./Page/Watch/Watch";
 import PageNotFound from "./Page/PageNotFound";
 import Search from "./Page/Search/Search";
 import Favorites from "./Page/Favorites/Fovorites";
