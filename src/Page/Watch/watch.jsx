@@ -1,10 +1,10 @@
 import Header from "../../Components/Header/Header"
 import Container from "../../Components/Container/Container"
 import Footer from "../../Components/Footer/Footer"
-import styles from "./Watch.module.css"
 import { useParams } from "react-router-dom"
 import videos from "../../json/videos.json"
 import PageNotFound from "../PageNotFound"
+import styles from "./Watch.module.css"
 
 function Watch (){
     // params "parametro" = useParams() permite que eu receba os parametrosa que são enviadosm quando seleciona um video do home e mostra na url
@@ -18,14 +18,14 @@ function Watch (){
             <Header />
             <Container>
                 <section className={styles.watch}>
-                <iframe 
-                    width="854"
-                    height="480"
-                    src={`https://www.youtube.com/embed/${video.id}`}
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                    <iframe 
+                        width="854"
+                        height="480"
+                        src={`https://www.youtube.com/embed/${video.id}`}
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
                 </section>
             </Container>    
             <Footer />
