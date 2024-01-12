@@ -5,6 +5,7 @@ import styles from "./Watch.module.css"
 import { useParams } from "react-router-dom"
 import videos from "../../json/videos.json"
 import PageNotFound from "../PageNotFound"
+
 function Watch (){
     // params "parametro" = useParams() permite que eu receba os parametrosa que são enviadosm quando seleciona um video do home e mostra na url
     const params = useParams()
