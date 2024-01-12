@@ -14,7 +14,7 @@ function Home() {
       <Banner image="home"/>
       <Container>
         {categories.map((category, index) =>
-          <Category category={category}>
+          <Category key={index} category={category}>
             <Carousel>
               {filterCategory(index).map((video) => <Card id={video.id} key={video.id}/>)}
             </Carousel>
