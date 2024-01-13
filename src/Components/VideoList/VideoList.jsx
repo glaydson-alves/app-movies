@@ -12,7 +12,6 @@ function VideoList({videos, emptyHeading}) {
     // count vai resceber a quantide encontrada enquato que 'noun' vai verificar se é maior que 1 para ele receber o valor no plural ou no singular.
   }
   //
-
   return (
     <>
       <h2>{heading}</h2>
