@@ -4,12 +4,14 @@ import Footer from "../../Components/Footer/Footer"
 import Header from "../../Components/Header/Header"
 import Card from "../../Components/Card/Card"
 import Carousel from "../../Components/Carousel/Carousel"
+import ScrollToTopButton from "../../Components/ScrollToTopButton/ScrollToTopButton"
 import Category, { categories, filterCategory } from "../../Components/Category/Category"
 
 
 function Home() {
   return (
     <>
+      <ScrollToTopButton />
       <Header/>
       <Banner image="home"/>
       <Container>

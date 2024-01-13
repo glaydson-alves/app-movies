@@ -26,5 +26,66 @@
     transition: 0.5s all;
 }
 .header a:hover{
-    color: #afafaf;
+    color: #8f8f8f;
+}
+/* .menuButton{
+    display: none;
+} */
+/* btn menu */
+@media ( max-width: 488px) {
+    .header{
+        padding-inline: 10px;
+    }
+    .header span{
+        font-size: 20px;
+    }
+    .header a{
+        font-size: 15px;
+        padding-inline: 8px;
+    }
+    /* .menuButton{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 20px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    } */
+    /* .linha{
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 3px;
+    } */
+    /* .menu{
+        display: none;
+    }
+
+    .show{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: auto;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background-color: red;
+    } */
+}
+
+@media (max-width:380px){
+    .header{
+        padding-inline: 10px;
+    }
+    .header span{
+        font-size: 24px;
+    }
+    .header a{
+        font-size: 12px;
+        
+    }
 }

@@ -7,11 +7,12 @@ import SearchVideosList from "../../Components/SearchVideosList/SearchVideosList
 
 function Search(){
     return(
-        <>
+        <>  
+            
             <Header/>
             <Container>
                 <div className={styles.search}>
-                    <h2>Pesquisar</h2>
+                    
                     <SearchVideosList videos={videos}/>
                 </div>
             </Container>
