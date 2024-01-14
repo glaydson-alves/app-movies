@@ -1,5 +1,5 @@
-import styles from "./VideoList.module.css"
 import Card from "../Card/Card"
+import styles from "./VideoList.module.css"
 
 function VideoList({videos, emptyHeading}) {
 
