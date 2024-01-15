@@ -1,12 +1,12 @@
 import styles from "./Banner.module.css"
 
-function Banner({ image }){
+function Banner({ image }) {
     return(
-        <div 
-            className={styles.banner} 
-            style={ {backgroundImage: `url('/public/images/banner-${image}.png')`} }
+        <div
+            className={styles.banner}
+            style={{ backgroundImage: `url('/images/banner-${image}.png')` }}
         ></div>
-    )
+    );
 }
 
 export default Banner
