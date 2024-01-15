@@ -5,6 +5,7 @@ import Footer from "../../Components/Footer/Footer"
 import VideoList from "../../Components/VideoList/VideoList"
 import { useFavoriteContext } from "../../contexts/Favorites"
 import ScrollToTopButton from "../../Components/ScrollToTopButton/ScrollToTopButton"
+import Banner from "../../Components/Banner/Banner"
 
 function Favorites(){
 
@@ -14,6 +15,7 @@ function Favorites(){
         <>
             <ScrollToTopButton />
             <Header />
+            <Banner image="favoritos" />
             <Container>
                 <div className={styles.favorites}>
                     <h2>Favoritos</h2>
