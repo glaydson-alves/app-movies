@@ -4,7 +4,7 @@ function Banner({ image }){
     return(
         <div 
             className={styles.banner} 
-            style={ {backgroundImage: `url('./Public/images/banner-${image}.png')` } }
+            style={ {backgroundImage: `url('./Public/images/banner-${image}.png')`} }
         ></div>
     )
 }
