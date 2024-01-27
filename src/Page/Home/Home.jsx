@@ -1,11 +1,11 @@
-import Banner from "../../Components/Banner/Banner"
-import Container from "../../Components/Container/Container"
-import Footer from "../../Components/Footer/Footer"
-import Header from "../../Components/Header/Header"
-import Card from "../../Components/Card/Card"
-import Carousel from "../../Components/Carousel/Carousel"
-import ScrollToTopButton from "../../Components/ScrollToTopButton/ScrollToTopButton"
-import Category, { categories, filterCategory } from "../../Components/Category/Category"
+import Banner from "../../components/Banner/Banner"
+import Container from "../../components/Container/Container"
+import Footer from "../../components/Footer/Footer"
+import Header from "../../components/Header/Header"
+import Card from "../../components/Card/Card"
+import Carousel from "../../components/Carousel/Carousel"
+import ScrollToTopButton from "../../components/ScrollToTopButton/ScrollToTopButton"
+import Category, { categories, filterCategory } from "../../components/Category/Category"
 
 
 function Home() {
