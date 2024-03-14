@@ -1,9 +1,9 @@
-import Header from "../../Components/Header/Header"
-import Footer from "../../Components/Footer/Footer"
-import Container from "../../Components/Container/Container"
+import Header from "../../components/Header/Header"
+import Footer from "../../components/Footer/Footer"
+import Container from "../../components/Container/Container"
 import styles from "./Search.module.css"
 import videos from "../../json/videos.json"
-import SearchVideosList from "../../Components/SearchVideosList/SearchVideosList"
+import SearchVideosList from "../../components/SearchVideosList/SearchVideosList"
 
 function Search(){
     return(

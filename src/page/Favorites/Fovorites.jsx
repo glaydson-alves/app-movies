@@ -1,11 +1,11 @@
 import styles from "./Favorites.module.css"
-import Header from "../../Components/Header/Header"
-import Container from "../../Components/Container/Container"
-import Footer from "../../Components/Footer/Footer"
-import VideoList from "../../Components/VideoList/VideoList"
+import Header from "../../components/Header/Header"
+import Container from "../../components/Container/Container"
+import Footer from "../../components/Footer/Footer"
+import VideoList from "../../components/VideoList/VideoList"
 import { useFavoriteContext } from "../../contexts/Favorites"
-import ScrollToTopButton from "../../Components/ScrollToTopButton/ScrollToTopButton"
-import Banner from "../../Components/Banner/Banner"
+import ScrollToTopButton from "../../components/ScrollToTopButton/ScrollToTopButton"
+import Banner from "../../components/Banner/Banner"
 
 function Favorites(){
 
