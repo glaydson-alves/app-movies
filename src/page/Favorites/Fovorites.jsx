@@ -15,7 +15,7 @@ function Favorites(){
         <>
             <ScrollToTopButton />
             <Header />
-            <Banner image="favoritos" />
+            <Banner image="home" />
             <Container>
                 <div className={styles.favorites}>
                     <h2>Favoritos</h2>
