@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Page/Home/Home";
-import Watch from "./Page/Watch/Watch";
-import PageNotFound from "./Page/PageNotFound";
-import Search from "./Page/Search/Search";
-import Favorites from "./Page/Favorites/Fovorites";
+import Home from "./page/Home/Home";
+import Watch from "./page/Watch/Watch";
+import PageNotFound from "./page/PageNotFound";
+import Search from "./page/Search/Search";
+import Favorites from "./page/Favorites/Fovorites";
 import FavoritesProvider from "./contexts/Favorites";
 
 function AppRoutes(){
